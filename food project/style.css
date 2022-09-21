@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'pappins', sans-serif;
+    color: #222;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cookie', cursive;
+   font-family: 'Fredericka the Great', cursive;
+   font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    padding: 10px 0px !important;
+    
+}
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.logo{
+    width:200px;
+    margin-bottom: 0px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin: 0px 15px;
+
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.link:hover{
+    background-color: burlywood;
+    color: black !important;
+}
+
+li a .fa{
+   color: black;
+   font-size: 30px;
+   padding: 5px;
+}
+li a .fa:hover{
+    color:burlywood;
+}
+
+/* loging and signup style */
+.log-btn-mystyle{
+    border-radius: 0px;
+    width: 100%;
+    font-size: small;
+
+}
+.cls-btn{
+    border-radius: 0px;
+    font-size: small;
+    
+}
+
+/* loging and signup style end*/
+
+    
+
+/* carousel Start */
+
+.carousel-caption h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 200%;
+    text-shadow: 2px 0px 10px rgb(0, 0, 0);
+    
+}
+.carousel-caption p{
+    text-transform: capitalize;
+    color: rgb(167, 0, 0);
+}
+
+
+.carousel-img{
+    width: 100% !important;
+    height: 100%;
+    padding: 50px 0px;
+
+}
+.carousel-dic{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 243px;
+    height: 35%;
+    
+}
+.carousel-dic:hover{
+    background-color: rgb(218, 177, 124,1);
+
+}
+.my-style{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+
+/* carousel end */
+
+
+/* jumbotron start */
+.jumbotron{
+    margin-bottom: 0px !important;
+    padding: 25px !important;
+    border-radius: 0px !important;
+}
+.jum-a{
+    text-decoration-line: unset !important;
+
+    
+}
+.jbtn-p{
+    color: black;
+    text-decoration: none !important;
+    text-decoration-line: none;
+
+}
+.btn{
+   text-transform: uppercase;
+   
+}
+/* jumbotron end */
+
+.bult-head h3{
+    margin-bottom: 0px !important;
+}
+
+.bult-head h3{
+    text-transform: capitalize;
+    font-family: 'Cookie', cursive;
+}
+.hr{
+    margin: 2% 20% !important;
+}
+
+.fa_style{
+    font-weight: bold;
+    color: rgb(211, 47, 47);
+    background:lightslategray;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+   
+}
+.item{
+    margin-top: 10px;
+}
+.item h3{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.item_para{
+    font-size: small;
+    text-transform: capitalize;
+}
+
+
+/* <!-- 44444444444444444444444444444444444444444444444444444 --> */
+.bouid-it{
+
+}
+.bouid-it h2{
+    text-transform: capitalize;
+
+}
+.bouid-it p{
+    font-size: small;
+}
+.bouild-img{
+    width: 700px;
+}
+.build-row{
+    margin-top: 26px;
+}
+.learn-btn{
+    font-size: small;
+    border-radius: 0px !important;
+
+}
+/* <!-- 44444444444444444444444444444444444444444444444444444 --> */
+
+/* 555555555555555555555555555555555555555555555555555555555555 */
+.btn2{
+    width: 100% !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+    padding: 3px 0px !important;
+}
+.gif{
+    width: 100px !important;
+}
+/* 555555555555555555555555555555555555555555555555555555555555 */
+.fixed-img{
+    height: 100vh;
+    background-image: url("https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 20px;
+
+}
+
+/* 6666666666666666666666666666666666666666666666666666666666666666 */
+/* 6666666666666666666666666666666666666666666666666666666666666666 */
+
+/* 777777777777777777777777777777777777777777777 */
+
+.card{
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 5px black;
+    transition: .3s;
+}
+.card img{
+    width: 100%;
+}
+.card-body h4{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.card-body p{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.card:hover{
+    background: blanchedalmond;
+}
+
+.card-body a{
+    font-size: 14px;
+    border-radius: 0px !important;
+}
+
+
+/* 777777777777777777777777777777777777777777777 */
+
+
+/* 88888888888888888888888888888888888888888888888 */
+.social{
+    color: violet;
+
+}
+.social a{
+  text-decoration: none;
+  transition: .3s;
+}
+
+.social a i{
+ font-size: 30px;
+ padding: 13px;
+}
+.social i:hover{
+    transform: skew(160deg);
+}
+/* 88888888888888888888888888888888888888888888888 */
+
+
+/* footer start */
+.foot-hr{
+    margin-top: 0px !important;
+}
+.text_color{
+    color: white;
+    margin-top: 50px !important;
+}
+.text_color p{
+    font-size: 13px;
+}
+.foot-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+/* footer end */
+
+
+
+
+/* responsiv */
+
+/* Medium devices (tablets, less than 992px) */
+@media(max-width: 992px){
+    
+    
+
+}
+
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width: 768px){
+    /* nav design */
+    .link{
+        text-align: left;
+        text-transform:uppercase;
+        font-weight: bold;
+    }
+    .link:hover{
+        background-color: unset;
+        color: tomato !important;
+    }
+
+    /* nav design end */
+    
+    .carousel-inner img{
+        padding: 10px 0px!important;
+        
+    }
+    
+    
+    
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+@media(max-width: 576px){
+    
+    
+}
+
